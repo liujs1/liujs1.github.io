@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/hello-world.html</url>
-    <content><![CDATA[<p>My personal homepage was set up today. I hope to record my learning notes and blogs via it.</p>
-<blockquote>
-<p>True mastery of any skill takes a lifetime.<br>Live beautifully, dream passionately, and love completely.</p>
-</blockquote>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <categories>
-        <category>Life Log</category>
-      </categories>
-      <tags>
-        <tag>personal</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Deep Learning Note 1</title>
     <url>/test.html</url>
     <content><![CDATA[<p>2020-05-26</p>
@@ -74,6 +41,39 @@ test
       </categories>
       <tags>
         <tag>Deep Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/hello-world.html</url>
+    <content><![CDATA[<p>My personal homepage was set up today. I hope to record my learning notes and blogs via it.</p>
+<blockquote>
+<p>True mastery of any skill takes a lifetime.<br>Live beautifully, dream passionately, and love completely.</p>
+</blockquote>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>Life Log</category>
+      </categories>
+      <tags>
+        <tag>personal</tag>
       </tags>
   </entry>
 </search>
