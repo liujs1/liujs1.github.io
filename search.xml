@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/hello-world.html</url>
+    <content><![CDATA[<p>My personal homepage was set up today. I hope to record my learning notes and blogs via it.</p>
+<blockquote>
+<p>True mastery of any skill takes a lifetime.<br>Live beautifully, dream passionately, and love completely.</p>
+</blockquote>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>Life Log</category>
+      </categories>
+      <tags>
+        <tag>personal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Deep Learning Note 1</title>
+    <url>/test.html</url>
+    <content><![CDATA[<p>2020-05-26</p>
+<!-- ## Section 1
+test
+
+## Section 2
+### Subsection 2.1
+test
+
+`test`
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">df = pd.csv_read(<span class="string">''</span>)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">a</span><span class="params">(inpt1)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> inpt1*<span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<pre><code class="matlab">Y = <span class="built_in">zeros</span>(<span class="number">3</span>,<span class="number">1</span>)
+``` --&gt;</code></pre>
+--><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>Tech</category>
+      </categories>
+      <tags>
+        <tag>Deep Learning</tag>
+      </tags>
+  </entry>
+</search>
