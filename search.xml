@@ -3,7 +3,10 @@
   <entry>
     <title>Dynamic Design: About Me</title>
     <url>/designvideo.html</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/OBAjB9DHEyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><script>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/OBAjB9DHEyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>If Youtube is not available, a bilibili <a href="https://www.bilibili.com/video/BV1Pg4y1z7gW/" target="_blank" rel="noopener">entrance</a> is supplementary.</p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
